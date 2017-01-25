@@ -1,0 +1,29 @@
+{
+  "name": "uuVrPlatform",
+  "version": "0.0.2",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.4.1",
+    "express": "~4.13.4",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0",
+    "redis-connection-pool": "~1.5.0",
+    "mysql": "~2.11.1",
+    "fs": "~0.0.2",
+    "jssha": "~2.2.0",
+    "md5": "~2.1.0",
+    "xml": "1.0.1",
+    "pixl-xml": "~1.0.7",
+    "crypto": "~0.0.3",
+    "express-xml-bodyparser": "~0.3.0",
+    "ccap": "~0.6.10",
+    "aes-js": "~2.0.0",
+    "node-schedule": "~1.1.1"
+  }
+}
