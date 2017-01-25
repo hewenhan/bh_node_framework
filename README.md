@@ -1,5 +1,3 @@
-# bh_node_framework
-
 # DESCRIPTION
 `version v0.8.0`
 
@@ -24,7 +22,7 @@ install all package form folder root path the package.js file like:
 
 	npm install
 
-and run app.js file with node
+and run bin/www.js file with node
 
 	npm start
 
