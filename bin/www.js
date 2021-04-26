@@ -5,14 +5,20 @@
 */
 
 var app = require('../app');
-var debug = require('debug')('uuVrPlatform:server');
+var debug = require('debug')('redPackApi:server');
 var http = require('http');
 
 /**
 * Get port from environment and store in Express.
 */
 
-var port = normalizePort(process.env.PORT || '3000');
+var argv = {};
+
+for (var i = 0; i < process.argv.length; i = i + 2) {
+	argv[process.argv[i]] = process.argv[i + 1];
+}
+
+var port = normalizePort(argv['--PORT'] || '3001');
 app.set('port', port);
 
 /**
