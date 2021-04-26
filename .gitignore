@@ -1,1 +1,8 @@
-node_modules
+node_modules/
+config/
+startApp.json
+logs/
+build
+package-lock.json
+public/mobile/css
+objCache.json
